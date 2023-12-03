@@ -4,14 +4,14 @@ const gif document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
-yesBtn.addEventListener("click", ( ) => {
+yesBtn.addEventListener("click", () => {
   question. InnerHTML = "Aaaaa, I like you too cintaaa"
   gif.src = 
   "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
 }); 
 
-noBtn.addEventListener("mouseover", ( ) {
-  const noßtnRect noBtn.getBoundingClientRect( );
+noBtn.addEventListener("mouseover", () {
+  const noBtnRect noBtn.getBoundingClientRect();
   const maxX window.innerWidth noBtnRect.width;
   const maxY = window.innerHeight noBtnRect.height;
   
